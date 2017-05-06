@@ -1,14 +1,10 @@
 # VML Front End Style Guide
 
-***
-
 ## Table of Contents
 
 - [General](general.md)
 - [HTML](html.md)
 - [CSS](css.md)
-
-***
 
 ## Intent
 
