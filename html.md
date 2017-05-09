@@ -8,7 +8,7 @@
 1. [Doctype](#doctype)
 1. [Encoding](#encoding)
    1. [Character Entity References](#character-entity-references)
-1. [Formatting](#formatting)]
+1. [Formatting](#formatting)
    1. [New Lines](#new-lines)
    1. [Indentation](#indentation)
    1. [Attribute Quotes](#attribute-quotes)
@@ -53,6 +53,12 @@ _<!DOCTYPE html>
 ## Encoding
 
 [Always specify the encoding of an HTML document](https://www.w3.org/International/questions/qa-html-encoding-declarations), prefer `UTF-8`, and place it immediately after the opening `<head>` tag as it must be within the first 1024 bytes.
+
+```
+<!-- Correct -->
+<head>
+  <meta charset="utf-8">
+```
 
 ### Character Entity References
 

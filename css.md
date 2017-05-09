@@ -355,7 +355,7 @@ Prefer [expressive and modular code](http://thesassway.com/editorial/sass-vs-scs
 
 ### Ordering
 
-Try to group external (`@include`) declarations together at either the beginning of the end of the declaration set. Grouping at the beginning of the declaration set makes them easier to override.
+Try to group external (`@include`) declarations together at either the beginning or the end of the declaration set. Grouping at the beginning of the declaration set makes them easier to override.
 
 ```
 /* Not Recommended: Scattered throughout */
@@ -477,7 +477,7 @@ Using `@extend` with classes should be avoided because it has unintuitive and po
 
 Sass should be broken out into as many component files as makes sense for your project. Sometimes that means writing a file per atom, sometimes it means writing a file per component.
 
-Abstracting your code into a highly modular fashion makes it easier to extend functionality and contributes to an overall atomic workflow.
+Abstracting your code into a highly modular fashion makes it easier to extend functionality and contributes to an overall [atomic workflow](http://bradfrost.com/blog/post/atomic-web-design/).
 
 #### Directory Structure
 
