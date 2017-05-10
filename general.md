@@ -8,9 +8,9 @@
 1. [Node](#node)
 1. [Comments](#comments)
 1. [General Formatting](#general-formatting)
-  1. [Indentation](#indentation)
-  1. [Whitespace](#whitespace)
-  1. [Line Endings (Git)](#line-endings)
+   1. [Indentation](#indentation)
+   1. [Whitespace](#whitespace)
+   1. [Line Endings (Git)](#line-endings)
 
 ## Encryption and Protocol
 

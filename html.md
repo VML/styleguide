@@ -4,14 +4,14 @@
 
 1. [Valid HTML](#valid-html)
 1. [Separation of Concerns](#separation-of-concerns)
-  1. [Limit asset includes](#limit-asset-includes)
+   1. [Limit asset includes](#limit-asset-includes)
 1. [Doctype](#doctype)
 1. [Encoding](#encoding)
-  1. [Character Entity References](#character-entity-references)
+   1. [Character Entity References](#character-entity-references)
 1. [Formatting](#formatting)]
-  1. [New Lines](#new-lines)
-  1. [Indentation](#indentation)
-  1. [Attribute Quotes](#attribute-quotes)
+   1. [New Lines](#new-lines)
+   1. [Indentation](#indentation)
+   1. [Attribute Quotes](#attribute-quotes)
 
 ## Valid HTML
 
