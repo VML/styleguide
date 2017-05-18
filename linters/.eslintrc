@@ -1,0 +1,5 @@
+// Add exceptions per project, as needed.
+{
+  "extends": "airbnb-base",
+  "rules": {}
+}

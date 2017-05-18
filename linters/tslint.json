@@ -1,0 +1,10 @@
+// Add exceptions per project, as needed.
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rules": {},
+  "rulesDirectory": []
+}
