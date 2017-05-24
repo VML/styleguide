@@ -36,7 +36,7 @@ Aria Roles tell a scren reader what function the element serves. For example `<d
 
 ### Simple rules to develop by
 
-1. Utilize a native HTML5 element or attribute before relying on an ARIA equivalent.
+1. Utilize a native HTML5 element or attribute before relying on an ARIA equivalent. Some screen readers are not able to recognize HTML5 landmarks. That said, for best results you should utilize both. 
 
 | HTML5       | ARIA                  |
 | ----------- | :---------------------|
@@ -77,3 +77,35 @@ Aria Roles tell a scren reader what function the element serves. For example `<d
 // correct: include aria-label and placeholder attribute to cover visually and hearing impaired
 <input aria-label="First name:" placeholder="First name:" type="text">
 ```
+
+## Accessible Styles
+
+#### Never set outline to 0 or none without providing focus alternatives.
+
+## Micro Data
+
+[Placeholder]
+
+## Checkers
+##### Websites
+- [W3 Validator](http://validator.w3.org/nu/)
+
+##### Tools/Extensions
+- [Siteimprove](https://chrome.google.com/webstore/detail/siteimprove-accessibility/efcfolpjihicnikpmhnmphjhhpiclljc?hl=en-US)
+- [WAVE](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh?hl=en-US)
+- [OpenDyslexic](https://chrome.google.com/webstore/detail/opendyslexic/cdnapgfjopgaggbmfgbiinmmbdcglnam?hl=en)
+
+## Resources
+##### Information
+- [W3C: Using ARIA](https://www.w3.org/TR/using-aria/)
+- [W3C: ARIA States & Properties](https://www.w3.org/TR/wai-aria/states_and_properties)
+
+##### Examples
+- [W3C: Landmarks](https://www.w3.org/TR/wai-aria-practices/examples/landmarks/index.html)
+- [Screen Reader Landmark Navigation Example](https://dequeuniversity.com/assets/html/jquery-summit/html5/slides/landmarks-example.html)
+
+##### Screen Readers
+- [Voiceover](https://www.apple.com/accessibility/mac/vision/)
+- [NVDA](https://www.nvaccess.org/)
+- [JAWS](http://www.freedomscientific.com/Downloads/JAWS)
+- [ChromeVox](https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en)
