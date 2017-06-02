@@ -5,6 +5,7 @@
 - [General](general.md)
 - [HTML](html.md)
 - [CSS](css.md)
+- [JavaScript](javascript.md)
 - [Accessibility](wgac.md)
 
 ## Intent
