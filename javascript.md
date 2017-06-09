@@ -2219,7 +2219,7 @@ The following guide is for ES6. If your team is using Typescript some of the rul
     }
 
     // bad
-    function fight () {
+    function fight() {
       console.log ('Swooosh!');
     }
 
